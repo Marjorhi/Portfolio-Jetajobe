@@ -112,7 +112,19 @@ header.shadow {
 }
 .home-text h1 {
   font-size: var(--big-font);
+  animation: type 4s steps(17);
+  overflow: hidden;
+  white-space: nowrap;
 }
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 17ch;
+    }
+}
+
 .home-text h2 {
   font-size: 1.1rem;
   font-weight: 400;
