@@ -11,7 +11,7 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --main-color: #150850;
+  --main-color: #846dec;
   --bg-color: rgb(224, 232, 235);
   --text-color: #0c271e;
   --hover: hsl(212, 100%, 51%);
@@ -25,7 +25,7 @@ section {
 }
 body.active {
   --text-color: #fff;
-  --bg-color: #0f0c27;
+  --bg-color: #08070c;
 }
 body {
   background: var(--bg-color);
@@ -44,7 +44,7 @@ body {
  
 .heading span {
   font-size: var(--p-font);
-  color: rgb(2, 166, 70);
+  color: rgb(117, 105, 167);
 }
 header {
   position: fixed;
@@ -112,7 +112,7 @@ header.shadow {
 }
 .home-text h1 {
   font-size: var(--big-font);
-  animation: type 4s steps(17);
+  animation: type 4s steps(16);
   overflow: hidden;
   white-space: nowrap;
 }
@@ -232,10 +232,10 @@ span {
   border-radius: 0.5rem;
 }
 .html-bar {
-  width: 94%;
+  width: 78%;
 }
 .css-bar {
-  width: 78%;
+  width: 73%;
 }
 .js-bar {
   width: 38%;
